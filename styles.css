@@ -1,0 +1,21 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    align-items: start;
+    justify-content: start;
+    
+
+    background-color: darkgrey;
+    overflow: hidden;
+}
+canvas{
+    border: 2px solid white;
+    background-color:black ;
+}
